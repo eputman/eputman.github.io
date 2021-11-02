@@ -1,2 +1,2 @@
 # eputman.github.io
-Personal site
+This is a personal site hosted by Github. It looks like I can edit things in markdown here.
