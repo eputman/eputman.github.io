@@ -8,9 +8,9 @@
 }
 
 body {
-    margin: 60px auto;
-    font-family: 'Montserrat', sans-serif;
-    width: 70%;
+   margin: 0;
+   padding: 30px 0;
+   font-family: 'Montserrat', sans-serif;
 }
 
 nav ul, footer ul {
@@ -73,15 +73,16 @@ ul.posts li {
    top: 0;
    left: 50%;
    width: 2px;
+   margin-left: -1px;
    height: 100%;
    background: #CCD1D9;
    z-index: 1
 }
 
 .timeline-block {
-   width: -webkit-calc(70% + 8px);
-   width: -moz-calc(70% + 8px);
-   width: calc(70% + 8px);
+   width: -webkit-calc(50% + 8px);
+   width: -moz-calc(50% + 8px);
+   width: calc(50% + 8px);
    display: -webkit-box;
    display: -webkit-flex;
    display: -moz-box;
