@@ -1,10 +1,10 @@
 name: Esther Putman, Aerospace Engineer
-markdown: kramdown
-
 title: Esther Putman, Aerospace Engineer
 
-#Site Author info
-# Site Author
+# Markdown Processing
+markdown: kramdown
+
+# Site Author info
 author:
   name             : "Esther Putman"
   avatar           : "profile.png"
