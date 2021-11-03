@@ -70,7 +70,7 @@ ul.posts li {
 .container:before {
    content: '';
    position: absolute;
-   top: 0;
+   top: 20px;
    left: 50%;
    width: 2px;
    margin-left: -1px;
