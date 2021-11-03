@@ -19,3 +19,28 @@ author:
   linkedin         :
   orcid            : 
   twitter          : "@Astro_Esther"
+
+# Defaults
+
+defaults:
+  # _about
+  - scope:
+      path: ""
+      type: about
+    values:
+      layout: default
+      author_profile: true
+  # _CV
+  - scope:
+      path: ""
+      type: CV
+   values:
+      layout: default
+      author_profile: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: teaching
+   values:
+      layout: default
+      author_profile: true
