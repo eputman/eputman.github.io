@@ -2,3 +2,20 @@ name: Esther Putman, Aerospace Engineer
 markdown: kramdown
 
 title: Esther Putman, Aerospace Engineer
+
+#Site Author info
+# Site Author
+author:
+  name             : "Esther Putman"
+  avatar           : "profile.png"
+  bio              : "Building the future of humans in space"
+  location         : "Boulder, CO"
+  employer         :
+  pubmed           : 
+  googlescholar    : # example: "url"
+  email            :  "esther.putman@colorado.edu"
+  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  github           : "eputman"
+  linkedin         :
+  orcid            : 
+  twitter          : "@Astro_Esther"
