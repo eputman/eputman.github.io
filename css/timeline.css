@@ -9,8 +9,8 @@
 }
 body {
     margin: 0px;
-    padding: 20px 20px 20px 20px;
-    width: 95%;
+    /*padding: 20px 20px 20px 20px;*/
+    width: 100%;
 }
 nav ul, footer ul {
     font-family: 'Montserrat', sans-serif;
