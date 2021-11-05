@@ -81,7 +81,7 @@ ul.posts li {
 
 .timeline-block-right {
    float: right;
-   float-offset: 2px;
+   float-offset: 20px;
 }
 
 .timeline-block-left {
