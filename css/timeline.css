@@ -4,7 +4,7 @@
 .header {
   padding: 10px;
   text-align: center;
-  background: #5c7191;
+  background: #041733;
   color: white;
 }
 body {
@@ -41,6 +41,12 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+}
+p2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #5c7191;
 }
 footer {
     border-top: 1px solid #d5d5d5;
