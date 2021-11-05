@@ -4,12 +4,12 @@
 .header {
   padding: 10px;
   text-align: center;
-  background: #576882;
+  background: #5c7191;
   color: white;
 }
 body {
-    margin: 0px 30px 20px 30px;
-    padding: 10px 10px 10px 10px;
+    margin: 0px;
+    padding: 20px 20px 20px 20px;
     width: 95%;
 }
 nav ul, footer ul {
