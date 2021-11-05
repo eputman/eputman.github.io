@@ -65,6 +65,7 @@ ul.posts li {
    content: '';
    position: absolute;
    top: 20px;
+   bottom: 20px;
    left: 50%;
    width: 2px;
    height: 100%;
