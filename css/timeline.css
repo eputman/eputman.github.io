@@ -65,7 +65,7 @@ ul.posts li {
    z-index: 1
 }
 
-/* .timeline-block {
+.timeline-block {
    width: -webkit-calc(50% + 8px);
    width: -moz-calc(50% + 8px);
    width: calc(50% + 8px);
