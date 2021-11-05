@@ -47,7 +47,7 @@ ul.posts li {
 }
 
 .container {
-   padding: 40px 0;
+   padding: 50px 0;
    /*margin: 50px auto;*/
    position: relative;
    overflow: hidden;
@@ -81,6 +81,7 @@ ul.posts li {
 
 .timeline-block-right {
    float: right;
+   float-offset: 2px;
 }
 
 .timeline-block-left {
