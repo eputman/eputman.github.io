@@ -150,7 +150,7 @@ ul.posts li {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 300px) {
    .container:before {
       left: 8px;
       width: 2px;
