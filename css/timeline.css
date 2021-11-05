@@ -113,17 +113,20 @@ ul.posts li {
 .timeline-content h3 {
    margin-top: 5px;
    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
    font-size: 25px;
    font-weight: 500
 }
 
 .timeline-content span {
    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
    color: #a4a4a4;
 }
 
 .timeline-content p {
    font-size: 14px;
+   font-family: 'Montserrat', sans-serif;
    line-height: 1.5em;
    word-spacing: 1px;
    color: #888;
