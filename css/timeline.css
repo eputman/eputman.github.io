@@ -7,10 +7,6 @@
   background: #041733;
   color: white;
 }
-body {
-    margin: 0;
-    /*padding: 20px 20px 20px 20px;*/
-}
 nav ul, footer ul {
     font-family: 'Montserrat', sans-serif;
     padding: 15px;
@@ -59,13 +55,6 @@ ul.posts li {
     list-style: none;
 }
 
-.container {
-   /*padding: 50px 0;*/
-   margin: 10px 60px 10px;
-   position: relative;
-   overflow: hidden;
-}
-
 /* Timeline */
 *,
 *::before,
@@ -73,6 +62,11 @@ ul.posts li {
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #ffffff;
+}
 
 .timeline {
   position: relative;
@@ -89,7 +83,7 @@ ul.posts li {
   background: #006E51;
   top: 0;
   bottom: 0;
-  left: 60%;
+  left: 50%;
   margin-left: -1px;
 }
 
@@ -216,11 +210,11 @@ ul.posts li {
     left: 90px;
   }
 
-/*  .container {
+  .container {
     width: 100%;
     padding-left: 120px;
     padding-right: 30px;
-   */
+  }
 
   .container.right {
     left: 0%;
