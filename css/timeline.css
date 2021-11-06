@@ -113,7 +113,7 @@ ul.posts li {
 
 .timeline-content {
    width: 95%;
-   padding: 0 15px;
+   /*padding: 0 15px;*/
    color: #666
 }
 
@@ -169,6 +169,6 @@ ul.posts li {
   
   .timeline-block-left .marker {
     order: 1;
-  } */
+  } 
 }
 
