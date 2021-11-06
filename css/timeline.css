@@ -80,7 +80,7 @@ body {
   content: '';
   position: absolute;
   width: 2px;
-  background: #006E51;
+  background: #07072b;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -110,7 +110,7 @@ body {
   top: calc(50% - 8px);
   right: -8px;
   background: #ffffff;
-  border: 2px solid #006E51;
+  border: 2px solid #07072b;
   border-radius: 16px;
   z-index: 1;
 }
@@ -126,7 +126,7 @@ body {
   height: 2px;
   top: calc(50% - 1px);
   right: 8px;
-  background: #006E51;
+  background: #07072b;
   z-index: 1;
 }
 
@@ -141,7 +141,7 @@ body {
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  color: #006E51;
+  color: #07072b;
   text-transform: uppercase;
   letter-spacing: 1px;
   z-index: 1;
@@ -162,12 +162,12 @@ body {
   height: 40px;
   padding: 9px 0;
   top: calc(50% - 20px);
-  background: #F6D155;
-  border: 2px solid #006E51;
+  background: #53668f;
+  border: 2px solid #07072b;
   border-radius: 40px;
   text-align: center;
   font-size: 18px;
-  color: #006E51;
+  color: #07072b;
   z-index: 1;
 }
 
@@ -181,7 +181,7 @@ body {
 
 .container .content {
   padding: 30px 90px 30px 30px;
-  background: #F6D155;
+  background: #53668f;
   position: relative;
   border-radius: 0 500px 500px 0;
 }
@@ -195,7 +195,7 @@ body {
   margin: 0 0 10px 0;
   font-size: 18px;
   font-weight: normal;
-  color: #006E51;
+  color: #07072b;
 }
 
 .container .content p {
