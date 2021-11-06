@@ -8,9 +8,8 @@
   color: white;
 }
 body {
-    margin: 0px;
+    margin: 0;
     /*padding: 20px 20px 20px 20px;*/
-    width: 100%;
 }
 nav ul, footer ul {
     font-family: 'Montserrat', sans-serif;
