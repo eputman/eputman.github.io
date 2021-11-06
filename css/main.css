@@ -9,12 +9,12 @@
 }
 body {
     margin: 0px;
-    padding: 20px 20px 20px 20px;
+    /*padding: 20px 20px 20px 20px;*/
     width: 100%;
 }
 blurb {
     font-family: 'Montserrat', sans-serif;
-    padding: 15px;
+    padding: 15px 30px 15px;
     margin-left: 20px;
 }  
 nav ul, footer ul {
