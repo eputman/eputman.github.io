@@ -8,9 +8,9 @@
   color: white;
 }
 body {
-    margin: 0px;
-    /*padding: 20px 20px 20px 20px;*/
-    width: 100%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #ffffff;
 }
 blurb {
     font-family: 'Montserrat', sans-serif;
@@ -43,6 +43,10 @@ h1 {
     font-size: 3em;
     font-family: 'Montserrat', sans-serif;
 }
+h2 {
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+}
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
@@ -64,9 +68,9 @@ ul.posts li {
 }
 
 .container {
-   /*padding: 50px 0;*/
-   margin: 10px 60px 10px;
-   position: relative;
-   overflow: hidden;
+  padding: 15px 30px;
+  position: relative;
+  background: inherit;
+  width: 50%;
 }
 
