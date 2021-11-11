@@ -16,7 +16,12 @@ blurb {
     font-family: 'Montserrat', sans-serif;
     padding: 15px 30px 15px;
     margin-left: 60px;
-}  
+}
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
 nav ul, footer ul {
     font-family: 'Montserrat', sans-serif;
     padding: 15px;
