@@ -251,3 +251,26 @@ body {
     border-radius: 500px 0 0 500px;
   }
 }
+
+/* Test new sidebar*/
+ .sidebar {
+     position: fixed;
+     border-right: 1px solid #d5d5d5;
+     width: 200px;
+     height: 400px;
+     background: #ffffff;
+ }
+ .content {
+     margin-left: 200px;
+     height: 500px;
+     width: auto;
+     position: relative;
+     background: #ffffff;
+     overflow: auto;
+     z-index: 1;
+ }
+ .info {
+     width: auto;
+     height: 300px;
+     position: relative;
+ }
