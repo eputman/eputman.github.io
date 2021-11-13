@@ -183,6 +183,7 @@ body {
 
 .container .content {
   padding: 30px 90px 30px 30px;
+  width: auto;
   background: #53668f;
   position: relative;
   border-radius: 30px;
