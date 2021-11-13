@@ -102,16 +102,17 @@ ul.posts li {
 /* Test new sidebar*/
  .sidebar {
      position: fixed;
+     border-right: 1px solid #d5d5d5;
      width: 200px;
      height: 400px;
-     background: #000;
+     background: #ffffff;
  }
  .content {
      margin-left: 200px;
      height: 500px;
      width: auto;
      position: relative;
-     background: #f00;
+     background: #ffffff;
      overflow: auto;
      z-index: 1;
  }
