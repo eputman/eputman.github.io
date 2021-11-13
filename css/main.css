@@ -117,7 +117,7 @@ ul.posts li {
      z-index: 1;
  }
  .info {
-     width: 1440px;
+     width: auto;
      height: 300px;
      position: relative;
      background: #f55;
