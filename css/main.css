@@ -106,6 +106,7 @@ ul.posts li {
      width: 200px;
      height: 400px;
      background: #ffffff;
+     padding: 2px;
  }
  .content {
      margin-left: 200px;
