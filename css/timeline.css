@@ -72,7 +72,7 @@ body {
 
 .timeline {
   position: relative;
-  width: 100%;
+  width: auto;
   max-width: 1140px;
   margin: 0 auto;
   padding: 15px 0;
@@ -185,12 +185,12 @@ body {
   padding: 30px 90px 30px 30px;
   background: #53668f;
   position: relative;
-  border-radius: 0 500px 500px 0;
+  border-radius: 30px;
 }
 
 .container.right .content {
   padding: 30px 30px 30px 90px;
-  border-radius: 500px 0 0 500px;
+  border-radius: 30px;
 }
 
 .container .content h2 {
@@ -248,7 +248,7 @@ body {
   .container.left .content,
   .container.right .content {
     padding: 30px 30px 30px 90px;
-    border-radius: 500px 0 0 500px;
+    border-radius: 30px;
   }
 }
 
