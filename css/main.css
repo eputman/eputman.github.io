@@ -183,3 +183,23 @@ ul.posts li {
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
 }
+
+/* Media and small screen formatting */
+@media screen and (max-width: 400px){
+  .sidebar {
+         width: 100px;
+  }
+  h1 {
+    margin-left: 10px;
+    font-size: 1em;
+  }
+  h2 {
+    font-size: 0.8em;
+  }
+  p {
+    margin-left: 10px;
+    font-size: 0.5em;
+    line-height: 0.5em;
+  }
+}
+  
