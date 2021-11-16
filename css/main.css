@@ -139,7 +139,7 @@ ul.posts li {
 .main-content{
   display: flex;
   height: auto;
-  min-height: 600px;
+  min-height: 1600px;
   padding-bottom: 10px;
 }
  .info {
