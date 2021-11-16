@@ -136,11 +136,6 @@ ul.posts li {
   min-height: 700px;
   padding-bottom: 10px;
 }
- .info {
-     width: auto;
-     height: 300px;
-     position: relative;
- }
 
 /* Collapsible Porfolio */
 .collapsible {
