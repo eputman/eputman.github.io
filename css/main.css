@@ -140,6 +140,7 @@ ul.posts li {
 /* Collapsible Porfolio */
 .collapsible {
   background-color: #041733;
+  border-style: solid;
   border-color: white;
   color: white;
   cursor: pointer;
