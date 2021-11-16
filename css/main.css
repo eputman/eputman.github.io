@@ -175,7 +175,7 @@ ul.posts li {
 }
 
 /* Media and small screen formatting */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
   .main-content{
   display: block;
   }
@@ -184,6 +184,10 @@ ul.posts li {
     height: auto;
     position: static;
     border-bottom: 1px solid #d5d5d5;
+  }
+  /* Profile Picture */
+  .profile {
+  margin-left: -10px;
   }
 }
 
