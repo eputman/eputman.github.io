@@ -139,7 +139,8 @@ ul.posts li {
 
 /* Collapsible Porfolio */
 .collapsible {
-  background-color: #777;
+  background-color: #041733;
+  border-color: white;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -151,7 +152,7 @@ ul.posts li {
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: #0b2447;
 }
 
 .collapsible:after {
