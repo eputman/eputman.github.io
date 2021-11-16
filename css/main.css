@@ -201,5 +201,8 @@ ul.posts li {
     font-size: 0.5em;
     line-height: 1em;
   }
+  ul {
+    font-size: 0.5em;
+  }
 }
   
