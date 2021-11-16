@@ -175,10 +175,15 @@ ul.posts li {
 }
 
 /* Media and small screen formatting */
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
+  .main-content{
+  display: block;
+  }
   .sidebar{
+  	width: 100%;
+    height: auto;
     position: static;
-    width: 100%;
-    min-width: 100%;
+    border-bottom: 1px solid #d5d5d5;
   }
 }
+
