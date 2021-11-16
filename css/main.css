@@ -138,7 +138,8 @@ ul.posts li {
  }
 .main-content{
   display: flex;
-  height: 100%;
+  height: auto;
+  min-height: 600px;
   padding-bottom: 10px;
 }
  .info {
