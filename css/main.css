@@ -123,8 +123,8 @@ ul.posts li {
      padding: 2px;
  }
  .content {
-     margin-left: 200px;
-     height: 500px;
+     margin-left: 200px; /* Width of sidebar! */
+     height: 800px;
      width: auto;
      position: relative;
      background: #ffffff;
