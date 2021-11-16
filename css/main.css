@@ -35,7 +35,7 @@
 }
 
 body {
-  margin: 0;
+  margin: auto;
   height: auto;
   font-family: 'Montserrat', sans-serif;
   background: #ffffff;
@@ -189,17 +189,16 @@ ul.posts li {
   .sidebar{
     width: 100px;
     min-width: 100px;
-    margin: 0px;
     padding: 0px;
   }
   .profile {
-  margin-left: 10px;
+  margin-left: 1px;
   width: 75px;
   height: 75px;
   border-radius: 50%;
 }
   h1 {
-    margin-left: 10px;
+    margin-left: 1px;
     font-size: 1em;
   }
   h2 {
