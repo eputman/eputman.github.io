@@ -125,7 +125,7 @@ ul.posts li {
  }
  .content {
      /*margin-left: 200px; /* Width of sidebar! */
-     height: 800px;
+     height: auto;
      /*width: auto;
      position: relative;*/
      background: #ffffff;
