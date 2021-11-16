@@ -138,6 +138,7 @@ ul.posts li {
  }
 .main-content{
   display: flex;
+  height: auto;
   padding-bottom: 10px;
 }
  .info {
