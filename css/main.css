@@ -119,6 +119,7 @@ ul.posts li {
      position: sticky;
      top: 0.5em;
      border-right: 1px solid #d5d5d5;
+     width: 250px;
      min-width: 250px;
      height: auto;
      background: #ffffff;
