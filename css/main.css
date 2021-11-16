@@ -88,13 +88,7 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-smalltext {
-    margin-left: 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-    line-height: 0.8em;
-    color: #333;
-}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
