@@ -187,12 +187,12 @@ ul.posts li {
 /* Media and small screen formatting */
 @media screen and (max-width: 400px){
   .sidebar{
-    width: 100px;
-    min-width: 100px;
+    width: 150px;
+    min-width: 150px;
     padding: 0px;
   }
   .profile {
-  margin-left: 1px;
+  margin-left: -5px;
   width: 75px;
   height: 75px;
   border-radius: 50%;
