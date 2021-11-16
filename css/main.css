@@ -45,9 +45,10 @@ blurb {
     margin-left: 60px;
 }
 .center {
-  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
-  padding: 10px;
 }
 nav ul, footer ul {
     font-family: 'Montserrat', sans-serif;
