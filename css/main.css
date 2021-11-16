@@ -115,16 +115,18 @@ ul.posts li {
 
 /* Test new sidebar*/
  .sidebar {
-     position: fixed;
+     position: sticky;
+     top: 0.5em;
      border-right: 1px solid #d5d5d5;
-     width: 200px;
+     min-width: 200px;
      height: auto;
-     bottom: 10px;
+     bottom: 100px;
      background: #ffffff;
      padding: 2px;
  }
  .content {
      margin-left: 200px; /* Width of sidebar! */
+     display: flex;
      height: 800px;
      width: auto;
      position: relative;
