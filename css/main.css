@@ -185,6 +185,9 @@ ul.posts li {
     position: static;
     border-bottom: 1px solid #d5d5d5;
   }
+  .content{
+  padding:10px;
+  }
   /* Profile Picture */
   .profile {
   margin-left: -10px;
