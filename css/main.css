@@ -126,7 +126,6 @@ ul.posts li {
  }
  .content {
      margin-left: 200px; /* Width of sidebar! */
-     display: flex;
      height: 800px;
      width: auto;
      position: relative;
