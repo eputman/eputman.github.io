@@ -182,7 +182,7 @@ ul.posts li {
 /* Media and small screen formatting */
 @media screen and (max-width: 400px){
   .sidebar{
-    width: 20%;
-    min-width: 20%;
+    width: 100%;
+    min-width: 100%;
   }
 }
