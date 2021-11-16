@@ -119,7 +119,7 @@ ul.posts li {
      border-right: 1px solid #d5d5d5;
      width: 200px;
      height: auto;
-     top: 200px;
+      top: inherit;
      bottom: 100px;
      background: #ffffff;
      padding: 2px;
