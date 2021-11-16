@@ -211,6 +211,7 @@ ul.posts li {
     line-height: 1.2em;
   }
   ul li{
+    margin-left:-15px;
     font-size: 0.5em;
     margin: 0px;
   }
