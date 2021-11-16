@@ -186,37 +186,3 @@ ul.posts li {
 }
 
 /* Media and small screen formatting */
-@media screen and (max-width: 400px){
-  .sidebar{
-    width: 100px;
-    min-width: 100px;
-    padding: 0px;
-  }
-  .profile {
-  margin-left: -5px;
-  width: 75px;
-  height: 75px;
-  border-radius: 50%;
-}
-  h1 {
-    margin-left: 1px;
-    font-size: 1.2em;
-  }
-  h2 {
-    font-size: 1em;
-  }
-  p {
-    margin-left: 10px;
-    font-size: 0.7em;
-    line-height: 1.2em;
-  }
-  ul li{
-    margin-left:-15px;
-    font-size: 0.5em;
-    margin: 0px;
-  }
-  .center{
-    width: 10%
-  }
-}
-  
