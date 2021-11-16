@@ -189,8 +189,11 @@ ul.posts li {
   .sidebar{
     width: 100px;
     min-width: 100px;
+    margin: 0px;
+    padding: 0px;
   }
   .profile {
+  margin-left: 10px;
   width: 75px;
   height: 75px;
   border-radius: 50%;
@@ -209,6 +212,7 @@ ul.posts li {
   }
   ul {
     font-size: 0.5em;
+    margin: 0px;
   }
 }
   
