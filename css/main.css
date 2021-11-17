@@ -253,5 +253,10 @@ ul.posts li {
   .profile {
   margin-left: -10px;
   }
+  /* Timeline */
+  .timeline {
+  padding: 5px;
+}
+	
 }
 
