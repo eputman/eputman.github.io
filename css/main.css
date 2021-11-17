@@ -266,15 +266,12 @@ ul.posts li {
   margin-left: -10px;
   }
   /* Timeline */
-  #timeline {
-  padding: 5px;
-}
   .timeline {
-  min-width: 50px;
-  max-width: auto;
-  margin: auto;
-  padding: 5px;
-}
+	  min-width: 150px;
+	  max-width: auto;
+	  margin: auto;
+	  padding: 15px;
+   }
 	
 	
 }
