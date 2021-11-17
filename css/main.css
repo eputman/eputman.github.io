@@ -25,7 +25,7 @@
 .pageref-container {
   float: left;
   width: 33.33%;
-  padding: 15px;
+  padding: 10px;
 }
 .clearfix::after {
   content: "";
