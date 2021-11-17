@@ -88,6 +88,65 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+/* Timeline */
+#timeline {
+  font-size: 1em;
+  line-height: 1.75em;
+  border-top: 3px solid;
+  border-image: linear-gradient(to right, #0f3052 0%, #98b8d9 100%);
+  border-image-slice: 1;
+  border-width: 3px;
+  margin: 0;
+  padding: 40px;
+  position: relative;
+  color: $blue;
+  
+  //numbers
+  &:before {
+    content: "P";
+    position: absolute;
+    border-radius: 50%;
+    padding: 10px;
+    height: 1.25em;
+    width: 1.25em;
+    background-color: $blue;
+    text-align: center;
+    line-height: 1.25em;
+    color: $white;
+    font-size: 1em;
+  }
+}
+//odd number borders
+#timeline:nth-child(odd) {
+  border-right: 3px solid;
+  padding-left: 0;
+  
+  &:before {
+    left: 100%; 
+    margin-left: -20px;
+  }
+}
+//even number borders
+#timeline:nth-child(even) {
+  border-left: 3px solid;
+  padding-right: 0;
+  
+  &:before {
+    right: 100%; 
+    margin-right: -20px;
+  }
+}
+//handle first and last
+#timeline:first-child {
+  border-top: 0;
+  border-top-right-radius:0;
+  border-top-left-radius:0;
+}
+#timeline:last-child {
+  border-bottom-right-radius:0;
+  border-bottom-left-radius:0;
+}
+ 
 
 footer {
     border-top: 1px solid #d5d5d5;
@@ -108,6 +167,12 @@ ul.posts li {
   position: relative;
   background: inherit;
   width: 50%;
+}
+/* Timeline box size*/
+.timeline {
+  min-width: 300px;
+  max-width: 500px;
+  margin: auto;
 }
 
 /* Sidebar*/
