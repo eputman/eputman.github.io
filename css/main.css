@@ -273,12 +273,12 @@ ul.posts li {
 	  padding: 15px;
 	}
 	#timeline:nth-child(odd) {
-	 border-right: 0px solid;
+	 border-left: 0px solid;
 	 padding-left: 0;
 	}
 
  #timeline:nth-child(even) {
-	 border-left: 0px solid;
+	 border-right: 0px solid;
 	 padding-right: 0;
 	}
 	
