@@ -163,7 +163,7 @@ ul.posts li {
 }
 /* Timeline box size*/
 .timeline {
-  min-width: 300px;
+  min-width: 150px;
   max-width: auto;
   margin: auto;
   padding: 20px;
