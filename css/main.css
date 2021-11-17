@@ -164,8 +164,9 @@ ul.posts li {
 /* Timeline box size*/
 .timeline {
   min-width: 300px;
-  max-width: 500px;
+  max-width: auto;
   margin: auto;
+  padding: 20px;
 }
 
 /* Sidebar*/
