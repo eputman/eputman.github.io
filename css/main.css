@@ -282,6 +282,10 @@ ul.posts li {
 	flex-wrap: wrap;
 	margin-left: 100px;
 	}
+.flex-container .box {
+  width: 30%;
+  margin: 15px;
+}
  /* Profile Picture */
 .profile {
 	 margin-left: -10px;
