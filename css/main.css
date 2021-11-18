@@ -22,11 +22,15 @@
   margin: 4px 2px;
   cursor: pointer;
 }
-.pageref-container {
-  float: left;
-  width: 30%;
-  padding: 30px;
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.flex-container .box {
+  background-color: #f1f1f1;
+  width: 50%;
   margin: 10px;
+  text-align: center;
 }
 .clearfix::after {
   content: "";
