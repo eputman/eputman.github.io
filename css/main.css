@@ -30,6 +30,7 @@
   width: 50%;
   background-color: #041733;
   margin: 20px;
+  border-radius:0.12em;
   text-align: center;
 }
 .clearfix::after {
