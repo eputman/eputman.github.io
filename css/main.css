@@ -266,37 +266,37 @@ ul.posts li {
 
 /* Media and small screen formatting */
 @media screen and (max-width: 600px) {
-  .main-content{
-  display: block;
-  }
-  .sidebar{
-  	width: 100%;
-    height: auto;
-    position: static;
-    border-bottom: 1px solid #d5d5d5;
-  }
-  .content{
-  padding:10px;
-  }
- .flex-container {
-  flex-wrap: wrap;
-  }
-  /* Profile Picture */
-  .profile {
-  margin-left: -10px;
-  }
-  /* Timeline */
-  .timeline {
+.main-content{
+	display: block;
+	}
+.sidebar{
+	width: 100%;
+	height: auto;
+	position: static;
+	border-bottom: 1px solid #d5d5d5;
+	}
+.content{
+	padding:10px;
+	}
+.flex-container {
+	flex-wrap: wrap;
+	margin-left: 30px;
+	}
+ /* Profile Picture */
+.profile {
+	 margin-left: -10px;
+	}
+ /* Timeline */
+.timeline {
 	  min-width: 150px;
 	  max-width: auto;
 	  margin: auto;
 	  padding: 15px;
 	}
-	#timeline:nth-child(odd) {
+#timeline:nth-child(odd) {
 	 border-left: 0px solid;
 	 padding-left: 0;
 	}
-
  #timeline:nth-child(even) {
 	 border-right: 0px solid;
 	 padding-right: 0;
