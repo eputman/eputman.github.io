@@ -263,7 +263,7 @@ ul.posts li {
 }
 
 /* Media and small screen formatting */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .main-content{
   display: block;
   }
@@ -276,8 +276,8 @@ ul.posts li {
   .content{
   padding:10px;
   }
- .pageref-container {
-  float: none;
+ .flex-container {
+  flex-wrap: wrap;
   }
   /* Profile Picture */
   .profile {
@@ -300,6 +300,5 @@ ul.posts li {
 	 padding-right: 0;
 	}
 	
-
 }
 
