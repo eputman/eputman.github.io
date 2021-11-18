@@ -28,8 +28,13 @@
 }
 .flex-container .box {
   width: 30%;
+  background-color: #041733;
   margin: 10px;
   text-align: center;
+}
+.flex-container .box:hover{
+ color:#000000;
+ background-color:#FFFFFF;
 }
 .clearfix::after {
   content: "";
