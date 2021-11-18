@@ -271,6 +271,9 @@ ul.posts li {
   .content{
   padding:10px;
   }
+ .pageref-container {
+  float: none;
+  }
   /* Profile Picture */
   .profile {
   margin-left: -10px;
@@ -292,6 +295,6 @@ ul.posts li {
 	 padding-right: 0;
 	}
 	
-	
+
 }
 
