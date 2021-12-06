@@ -18,6 +18,13 @@
         video[video.paused ? 'play' : 'pause']();
         });
   </script> 
+  <!-- Touch interfaces -->
+  <script>
+    document.addEventListener("touchstart", () => {
+      video = document.querySelector("video");
+      video[video.paused ? "play" : "pause"]();
+    });
+  </script>
   
   
   <body style="margin : 0px; overflow: hidden;">
@@ -38,6 +45,10 @@
     >
       <a-marker
         markerhandler
+        smooth="true"
+        smoothTolerance="0.4"
+        smoothCount="7"
+        smoothThreshold="7"
         emitevents="true"
         cursor="rayOrigin: mouse"
         id="animated-marker"
