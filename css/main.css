@@ -25,10 +25,11 @@
 }
 .flex-container {
   display: flex;
+  justify-content: center;
   flex-wrap: nowrap;
 }
 .flex-container .box {
-  width: 50%;
+  width: 150px;
   background-color: #041733;
   margin: 20px;
   border-radius:0.15em;
