@@ -228,6 +228,7 @@ ul.posts li {
 .main-content{
   display: flex;
   height: auto;
+  margin: auto;
   max-width: 1400px;
   min-height: 650px;
   padding-bottom: 10px;
