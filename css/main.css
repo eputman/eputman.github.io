@@ -23,6 +23,13 @@
   margin: 4px 2px;
   cursor: pointer;
 }
+.button:hover{
+  background-color: #072757;
+  box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  text-decoration: none;
+  color: white;
+}
+	
 .flex-container {
   display: flex;
   justify-content: center;
