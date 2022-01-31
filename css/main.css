@@ -21,6 +21,7 @@
   display: inline-block;
   font-size: 16px;
   margin: 4px 20px;
+  min-wdith: 200px;
   cursor: pointer;
 }
 .button:hover{
@@ -124,6 +125,11 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+.smalltext {
+  margin-left: 15px;
+  font-size: 1.0em;
+}
+
 /* Timeline */
  #timeline {
 	 font-size: 1em;
