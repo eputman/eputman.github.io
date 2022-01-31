@@ -21,7 +21,7 @@
   display: inline-block;
   font-size: 16px;
   margin: 4px 20px;
-  min-wdith: 200px;
+  min-width: 200px;
   cursor: pointer;
 }
 .button:hover{
