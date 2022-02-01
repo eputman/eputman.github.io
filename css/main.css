@@ -385,6 +385,10 @@ ul.posts li {
 .content{
 	padding:10px;
 	}
+.column{
+  display: block;
+  width: 100%
+  }
 .flex-container {
 	flex-wrap: wrap;
 	justify-content: center;
