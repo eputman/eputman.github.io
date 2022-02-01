@@ -14,7 +14,7 @@
   background-color: #041733;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 15px 20px;
   border-radius:0.15em;
   text-align: center;
   text-decoration: none;
@@ -112,6 +112,10 @@
   background: #041733;
   color: white;
 }
+.slider > a:hover{
+  text-decoration: none;
+  font-weight: bold;
+}
 	
 .flex-container {
   display: flex;
@@ -134,15 +138,20 @@
 /* Left column */
 .leftcolumn {   
   float: left;
-  width: 15%;
-  height:500px;
-  background-color: #f1f1f1;
-  padding-left: 20px;
+  width: 50%;
 }
 /* Right column */
 .rightcolumn {
   float: right;
-  width: 85%;
+  width: 50%;
+}
+/*Three Column*/
+.column{
+  float: left;
+  width: 33.33%;
+  margin-top:-5px;
+  padding-left: 10px;
+  padding-bottom: 20px;
 }
 
 /* Profile Picture */
@@ -283,7 +292,7 @@ ul.posts li {
   padding: 15px 30px;
   position: relative;
   background: inherit;
-  width: auto;
+  width: 100%;
 }
 /* Timeline box size*/
 .timeline {
