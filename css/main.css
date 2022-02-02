@@ -20,12 +20,12 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 20px;
+  margin: 4px 10px;
   min-width: 220px;
   cursor: pointer;
 }
 .button:hover{
-  background-color: #072757;
+  background-color: #444b66;
   box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   text-decoration: none;
   color: white;
@@ -203,7 +203,7 @@ a:hover {
 }
 h1 {
     margin-left: 30px;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'Montserrat', sans-serif;
 }
 h2 {
@@ -213,8 +213,9 @@ h2 {
 p {
     margin-left: 30px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.4em;
     line-height: 1.4em;
+    text-align: left;
     color: #333;
 }
 .smalltext {
@@ -373,7 +374,7 @@ ul.posts li {
 }
 
 /* Media and small screen formatting */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
 .main-content{
 	display: block;
 	}
@@ -412,7 +413,8 @@ ul.posts li {
 }
  /* Profile Picture */
 .profile {
-	 margin-left: -10px;
+	 margin: auto;
+   justify-content: center;
 	}
  /* Timeline */
 .timeline {
