@@ -30,8 +30,8 @@ title: Portfolio
 	</div> <!-- /sidebar -->
 
 	<div class="content">
-		<h1> Portfolio</h1>
-		<a style ="float:right;" href="https://eputman.github.io/documents/Putman_Resume_2022.pdf" target="_blank" class="button">Download my portfolio as a PDF</a>
+		<h1> Portfolio</h1><br>
+		<a style ="float:right;" href="https://eputman.github.io/documents/Putman_Portfolio_2022.pdf" target="_blank" class="button">Download my portfolio as a PDF</a><br>
 		<div class="slider">
   
 			<a href="#slide-1">1</a>
@@ -43,69 +43,247 @@ title: Portfolio
 			<div class="slides">
 				<div id="slide-1">
 					<!-- Project Template-->
-					<h3>Investigating the effect of GVS on operational performance.</h3>
+					<h3>Adaptive Virtual Reality for Astronaut Training</h3>
 						<figure>
-							<img src="/images/PortfolioImages/1a.jpg" alt="Project Picture" class="portfolio">
-							<figcaption> Member of the research team demonstrating the tilt translation sled</figcaption>
+							<img src="/images/PortfolioImages/1a.png" alt="Project Picture" class="portfolio">
+							<figcaption> Info Here</figcaption>
 				  		</figure>
 						<figure>
-							<img src="/images/PortfolioImages/1b.jpg" alt="Project Picture" class="portfolio">
-							<figcaption> The assembled functional mobility obstacle course.</figcaption>
+							<video controls autoplay src="/images/PortfolioImages/1b.mp4" type="video/mp4" alt="EDL environment video" class="portfolio">
+							Your browser does not support the video tag.
 				  		</figure>
 					<!-- Project Background-->
 						<p class="leftsmalltext">
 						<b>Project Background</b><br>
-						  For my master’s thesis, I conducted a human subject experiment exploring the use of galvanic vestibular stimulation (GVS) for improving operational performance in manual control and functional mobility tasks. GVS has grown as a tool for improving balance and motor control by introducing a small amount of electrical noise to the vestibular system. My research explored whether training of tasks that rely on vestibular function could be improved by the introduction of this type of noise through non-invasive electrodes placed behind the ears. This technology can improve performance in pilots and astronauts as well as populations on earth that rely on balance, like firefighters and paramedics or elderly populations at risk for falls. 
+						My dissertation research focuses on the use of adaptive virtual reality to maintain mission-critical skills in astronauts during long duration missions. We developed three space-relevant training environments: entry, descent, and landing, a rover-based EVA, and habitat maintenance. We also made a novel algorithm for adaptive difficulty adjustment in order to improve the efficacy of training. Completing training in a complex and immersive VR environment may also serve as a countermeasure to spaceflight associated neural decrements. This work will culminate in an analog mission at NASA’s Human Exploration Research Analog (HERA), where subjects will train in VR during their 45 days of isolation and confinement in a habitat mockup.
 						</p>
 			  		<!-- My contributions-->
 						<p class="leftsmalltext">          
 						<b>My Contributions</b>
 						<br>
-						I was responsible for all subject recruitment, data collection, and data analysis for this project, donning subjects with vestibular stimulation devices and supervising three undergraduate assistants who participated as second operators during testing. I wrote operational procedures and safety documentation, led safety testing and data collection, and training second operators to assist with experimentation. I delivered biweekly updates on project status and results with funding source stakeholders.
+						I was responsible for serving as the project manager for the development of our virtual environments, which is currently ongoing. I gained skills in using Github for project management as I organized environment development tasks between collaborators across three departments and two universities. I supervised five undergraduate student research assistants over the first year of development. I conducted extensive literature review on training and adaptive difficulty to facilitate the development of our novel training algorithm.
 						</p>
 						<p class="leftsmalltext">
-						I created a modified functional mobility task (FMT) using foam obstacles and an air track for additional balance impairment. This task was used to measure situational awareness, balance, and motion in study participants. My responsibilities also included operational procedures creation and testing of participants in a manual control nulling task using our Tilt Translation Sled motion device. This device involves a cabinet on a magnetic track with air bearings for low friction translation, inside of which a mounted chair and joystick system allows for roll tilt chair motions. I was responsible for developing and executing a safety test plan for this device. I used LabView software to execute motion profiles and collect data on subject ability to detect and null roll tilt chair disturbances using the joystick. 
+						I improved the immersion and user experience through developing a series of enhancements to the training simulations. For example, I made procedurally generated wind noise to increase difficulty in the landing task, using a Perlin noise generation function customized to replicate gusts of wind and applied through roll and pitch rate disturbances to the aircraft. I was responsible for ensuring data communication between our Unity environments and player database in MongoDB. I assisted in creating the adaptive difficulty algorithm on the backend of our server using Python. I designed user interfaces through feedback screens, updates to flight displays, and a startup player manager.  
 						</p>
 						<p class="leftsmalltext">
-						I was first author on the publication of this work in the Frontiers in Human Neuroscience journal and presented at the 2021 NASA Human Research program investigators workshop. 
+						With my background in neuroscience, I was the primary lead for integrating neurophysiological hardware with the VR training paradigm. I created operational procedures and data analysis plans for a combined EEG/fNIRS system.
 						</p>
 					<!-- Skills Developed-->
 						<p class="leftsmalltext">
 						<b>Skills Developed</b><br>
 						<div class="leftcolumn" style="margin-top:-20px">
 							<ul style="text-align:left;">
-							<li> IRB Documentation and approval</li>
+							<li> VR development in Unity game engine and C#</li>
+							<li> Backend development in PYthon and MongoDB</li>
+							<li> Designed and builty physical mockups to replicate VR simulations</li>
+							<li> Github for project management</li>
+							</ul>
+						</div>
+						<div class="rightcolumn" style="margin-top:-20px">
+							<ul style="text-align:left;">
+								<li> Neurophysioogical assessment with EEG and fNIRS</li>
+								<li> Human factors engineering and UI development</li>
+								<li> Worklod and task load assessment using Bedford and NASA TLX</li>
+							</ul>
+						</div>
+						</p>
+					</div> <!--/Slide 1-->
+
+				<div id="slide-2">
+					<!-- Project Template-->
+					<h3>Investigating the effect of GVS on operational performance.</h3>
+						<figure>
+							<img src="/images/PortfolioImages/2a.jpg" alt="Project Picture" class="portfolio">
+							<figcaption> Member of the research team demonstrating the tilt translation sled</figcaption>
+				  		</figure>
+						<figure>
+							<img src="/images/PortfolioImages/2b.jpg" alt="Project Picture" class="portfolio">
+							<figcaption> The assembled functional mobility obstacle course.</figcaption>
+				  		</figure>
+					<!-- Project Background-->
+						<p class="leftsmalltext">
+						<b>Project Background</b><br>
+						For my master’s thesis, I conducted a human subject experiment exploring the use of galvanic vestibular stimulation (GVS) for improving operational performance in manual control and functional mobility tasks. GVS has grown as a tool for improving balance and motor control by introducing a small amount of electrical noise to the vestibular system. My research explored whether training of tasks that rely on vestibular function could be improved by the introduction of this type of noise through non-invasive electrodes placed behind the ears. This technology can improve performance in pilots and astronauts as well as populations on earth that rely on balance, like firefighters and paramedics or elderly populations at risk for falls. 
+						</p>
+			  		<!-- My contributions-->
+						<p class="leftsmalltext">          
+						<b>My Contributions</b>
+						<br>
+						I was responsible for all subject recruitment, data collection, and data analysis for this project, donning subjects with vestibular stimulation devices and supervising three undergraduate assistants who participated as second operators during testing. I wrote operational procedures and safety documentation, led safety testing and data collection, and trained second operators to assist with experimentation. I delivered biweekly updates on project status and results with funding source stakeholders.
+						</p>
+						<p class="leftsmalltext">
+							I created a modified functional mobility task (FMT) using foam obstacles and an air track for additional balance impairment. This task was used to measure situational awareness, balance, and motion in study participants. My responsibilities also included operational procedures creation and testing of participants in a manual control nulling task using our Tilt Translation Sled motion device. This device involves a cabinet on a magnetic track with air bearings for low friction translation, inside of which a mounted chair and joystick system allows for roll tilt chair motions. I was responsible for developing and executing a safety test plan for this device. I used LabView software to execute motion profiles and collect data on subject ability to detect and null roll tilt chair disturbances. 
+						</p>
+						<p class="leftsmalltext">
+							I was first author on the publication of this work in the Frontiers in Human Neuroscience journal and presented at the 2021 NASA Human Research program investigators workshop.  
+						</p>
+					<!-- Skills Developed-->
+						<p class="leftsmalltext">
+						<b>Skills Developed</b><br>
+						<div class="leftcolumn" style="margin-top:-20px">
+							<ul style="text-align:left;">
+							<li> IRB documentation and approval</li>
 							<li> Management of protected subject data</li>
-							<li> Safety testing and operational procedural creation</li>
+							<li> Safety testing and operational procedures creation</li>
 							</ul>
 						</div>
 						<div class="rightcolumn" style="margin-top:-20px">
 							<ul style="text-align:left;">
 								<li> LabView</li>
-								<li> Donning physiological sensors</li>
+								<li> Donning physiological sensors for data collection</li>
 								<li> Data processing & analysis in MATLAB and R</li>
 								<li> Project management and technical writing</li>
 							</ul>
 						</div>
 						</p>
-					</div> <!--/Slide 1-->
-				  <!--End Project-->
-				<div id="slide-2">
-					<h2>Project 2</h2>
-					<p> Information about my next project</p>
-				</div>
+					</div> <!--/Slide 2-->
+
 				<div id="slide-3">
-					<h2>Project 3</h2>
-					<p> Information about my next project</p>
-				</div>
+					<!-- Project Template-->
+					<h3>Augmented Reality CPR Trainer</h3>
+						<figure>
+							<img src="/images/PortfolioImages/3a.png" alt="Project Picture" class="portfolio">
+							<figcaption> User interaction with instructions viewed through HoloLens</figcaption>
+				  		</figure>
+						<figure>
+							<img src="/images/PortfolioImages/3b.png" alt="Project Picture" class="portfolio">
+							<figcaption> User interacting with instructions through finger tap presses</figcaption>
+				  		</figure>
+					<!-- Project Background-->
+						<p class="leftsmalltext">
+						<b>Project Background</b><br>
+						In the Fall of 2021, I took a graduate level course on virtual and augmented reality. This course included a series of individual and group projects for developing in VR/AR but concluded with an open project to develop a VR/AR solution “for social good”. I took this as an opportunity to develop a project I had wanted to for some time- an augmented reality tool for assisting someone in learning how to perform CPR in emergent scenarios. 
+						</p>
+			  		<!-- My contributions-->
+						<p class="leftsmalltext">          
+						<b>My Contributions</b>
+						<br>
+						Our course content did not cover development for HoloLens, but I knew that I wanted the technology solution to offer hands free AR as opposed to a web or phone app. I was responsible for learning how to develop for and deploy to HoloLens through independent study. I had access to a first-generation HoloLens through my lab and learned the essential build and project settings for creating an environment in Unity that was compatible with this heads-up display. 
+						</p>
+						<p class="leftsmalltext">
+						I drew from my own experience getting certified in CPR to design usability features. The CPR instructions came from official American Red Cross training materials, but I decided to pull in audio aids to assist in pacing of compressions. I wanted the trainer to include interactions to ensure users were actively engaged with training and moving through steps according to correct CPR procedures. This led to the inclusion of 3D User interfaces. 
+						</p>
+						<p class="leftsmalltext">
+						I learned how to utilize and customized features from Microsoft’s Mixed Reality Toolkit. Another essential feature of our trainer was keeping the interactable instructions within the users field of view. I was responsible for researching and implementing a solver to satisfy this requirement.  
+						</p>
+						<p class="leftsmalltext">
+						My project partner and I conducted a usability test session with students in the class to gain feedback on our design and 3d-UI. We used craft foam and fabric to create a compression depth training mock-up instead of needing a true CPR dummy.
+						</p>
+					<!-- Skills Developed-->
+						<p class="leftsmalltext">
+						<b>Skills Developed</b><br>
+						<div class="leftcolumn" style="margin-top:-20px">
+							<ul style="text-align:left;">
+							<li> Using Unity to develop for 1st generation HoloLens hardware</li>
+							<li> Development with Microsoft MRTK</li>
+							<li> Creation of 3D User Interfaces</li>
+							</ul>
+						</div>
+						<div class="rightcolumn" style="margin-top:-20px">
+							<ul style="text-align:left;">
+								<li> Conducting usability studies and incorporating feedback to inform design trade space</li>
+								<li> Using solvers to increase usability of 3D-UI</li>
+								<li> Enhancing AR experience with audio cues</li>
+							</ul>
+						</div>
+						</p>
+					</div> <!--/Slide 3-->
+
 				<div id="slide-4">
-					<h2>Project 4</h2>
-					<p> Information about my next project</p>
-				</div>
+					<!-- Project Template-->
+					<h3>Payload Design for Stem Cell Research in Microgravity</h3>
+						<figure>
+							<img src="/images/PortfolioImages/4a.png" alt="Project Picture" class="portfolio">
+							<figcaption> Payloads for turnover during CRS-18. Photo courtest of Space Tango</figcaption>
+				  		</figure>
+						<figure>
+							<img src="/images/PortfolioImages/4b.png" alt="Project Picture" class="portfolio">
+							<figcaption> A picture of me during CRS-18 payload turnover</figcaption>
+				  		</figure>
+					<!-- Project Background-->
+						<p class="leftsmalltext">
+						<b>Project Background</b><br>
+						During my time as a biological systems engineer at Space Tango, I worked on dozens of life and physical sciences payloads for investigation on the International Space Station. One example includes the development of a stem cell research payload for examining 3-dimensional models of microglia in Parkinson’s disease and multiple sclerosis disease pathologies. 
+						</p>
+			  		<!-- My contributions-->
+						<p class="leftsmalltext">          
+						<b>My Contributions</b>
+						<br>
+						I was responsible for requirements creation and verification for environmental control and maintenance of stem cell tissue within the payload. I conducted primary research on materials compatibility for payload fluids, biological materials, and additive manufactured parts. I completed toxicology and hazards documentation to meet NASA standards for payload turnover. I used my background in life and physical sciences to inform design of hardware essential for maintaining stem cells and system components that interface with tissue samples. I communicated the scientific process to engineering teams in order to emphasize design considerations specific to research payloads.  
+						</p>
+						<p class="leftsmalltext">
+						Due to my background in stem cell research, I was also responsible for scientific and technical report writing for customer updates as well as payload summaries for marketing purposes. I conducted market research on the value of developing standardized hardware for enabling cellular biology investigations in microgravity environments.  
+						</p>
+						<p class="leftsmalltext">
+						I assisted with payload turnover at the Space Station Processing Facility for flight on SpaceX CRS-18. During final checkout procedures, an issue arose with fluid leaking within the payload design. I was responsible for finding the source of the leak and creating a rapid solution to enable payload turnover on schedule. I created a solution that prevented all leaking and controlled fluids according to system requirements, enabling the experiment to be launched as planned for success in orbit.
+						</p>
+					<!-- Skills Developed-->
+						<p class="leftsmalltext">
+						<b>Skills Developed</b><br>
+						<div class="leftcolumn" style="margin-top:-20px">
+							<ul style="text-align:left;">
+								<li> Grant, porposal, and technical writing in a customer facing role</li>
+								<li> Requirements creation, verification, and validation driven by biocompatibility</li>
+								<li> Experiment design for expedited</li> 
+							</ul>
+						</div>
+						<div class="rightcolumn" style="margin-top:-20px">
+							<ul style="text-align:left;">
+								<li> NASA Toxicology and hazards reporting</li>
+								<li> Payload integration and turnover</li>
+								<li> Materials compatibility research</li>
+								<li> Microfluidics hardware integration</li>
+							</ul>
+						</div>
+						</p>
+					</div> <!--/Slide 4-->
+
 				<div id="slide-5">
-					<h2>Project 5</h2>
-					<p> Information about my next project</p>
-				</div>
+					<!-- Project Template-->
+					<h3>Medical Resupply Sounding Rocket for Analog Mars EVA</h3>
+						<figure>
+							<img src="/images/PortfolioImages/5a.png" alt="Project Picture" class="portfolio">
+							<figcaption> EMBER payload showing keying mechanism and comparment views. Exploded rocket view shows integration with forward airframe.</figcaption>
+				  		</figure>
+
+					<!-- Project Background-->
+						<p class="leftsmalltext">
+						<b>Project Background</b><br>
+						As part of my Medicine in Space Surface Environments course, I was a member of a team designing a sounding rocket for medical supplies delivery in a theoretical Mars surface operation. Our team was tasked with designing a rocket delivery system for transporting essential medical supplies from a central command hub to habitable satellite bases on Mars. We developed the Environmentally Controlled Mars Ballistic Emergency Resupply (EMBER) unit. The objective was to allow for rapid transport of critical supplies in a controlled environment manner that facilitated easy recovery and use by an astronaut during surface operations. This was to be tested during an analog astronaut mission at the Mars Desert Research Station (MDRS) that was unfortunately cancelled due to COVID. 
+						</p>
+			  		<!-- My contributions-->
+						<p class="leftsmalltext">          
+						<b>My Contributions</b>
+						<br>
+						As a member of the ECLSS and mission design subsystem teams, I was responsible for creating requirements related to the safe storage temperatures, humidity levels, and vibration and shock profiles for all medications in order to guarantee safe usability after transport. The ECLSS system was designed to maintain thermal and humidity control for up to 12 hours from payload turnover, giving receiving crews a margin of error for recovery.  I completed extensive literature review about shelf-life and storage to inform requirement creation for dozens of medications that could be transported on our sounding rocket.
+						</p>
+						<p class="leftsmalltext">
+						I was responsible for creating the concept of operations and procedures for each phase of the mission. I wrote standard operational procedures for pre-flight and retrieval phases. I led the design of an integration mechanism for securing the payload in the forward airframe in a way that facilitated recovery by a gloved astronaut on a surface EVA. This resulted in an easy access U-bolt handle with a push-and-twist keying mechanism to allow an astronaut to quickly remove the payload. I introduced a simple graphical user interface that integrated with flight data to provide a status condition for onboard medical supplies. This GUI was used to inform receiving crew whether environmental control requirements had failed during flight.  
+						</p>
+						<p class="leftsmalltext">
+							Our team was scheduled to test our rocket as a crew at MDRS in mid-March of 2020, but cancellations due to the pandemic removed the opportunity to validate our design through testing. 
+						</p>
+					<!-- Skills Developed-->
+						<p class="leftsmalltext">
+						<b>Skills Developed</b><br>
+						<div class="leftcolumn" style="margin-top:-20px">
+							<ul style="text-align:left;">
+							<li> Payload integration and sounding rocketry</li>
+							<li> Concept of operations</li>
+							<li> Technical writing</li>
+							<li> Thermal analysis</li>
+							</ul>
+						</div>
+						<div class="rightcolumn" style="margin-top:-20px">
+							<ul style="text-align:left;">
+								<li> ECLSS Requirements creation and verification</li>
+								<li> Human-in-the-loop design</li>
+								<li> Ergonomics assessment</li>
+							</ul>
+						</div>
+						</p>
+					</div> <!--/Slide 5-->
 			</div><!-- /slides-->
 		</div><!-- /slider-->
 	</div> <!-- /content -->

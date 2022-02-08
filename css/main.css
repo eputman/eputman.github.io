@@ -154,6 +154,7 @@
   padding-left: 10px;
   padding-bottom: 20px;
 }
+/* Portfolio images */
 .portfolio {
   width: 300px;
   height: 300px;
@@ -229,6 +230,15 @@ p {
   margin-left: 15px;
   font-size: 1.0em;
   text-align: left;
+}
+figure { 
+  display: inline-table; 
+  margin: 8px;
+}
+
+figcaption { 
+  display: table-caption; 
+  caption-side: bottom ; 
 }
 
 /* Timeline */
